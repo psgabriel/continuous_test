@@ -6,7 +6,7 @@ if [ ! -d /web/html ]; then
   mkdir /web/html
   echo "<html>
   <body>
-    <h1>Doesn't Works!</h1>
+    <h1>It's Works!</h1>
     Docker container with Nginx on Alpine <a href=https://hub.docker.com/r/nimmis/alpine-nginx/>nimmis/alpine-nginx</a>
   </body>
 </html>" > /web/html/index.html
